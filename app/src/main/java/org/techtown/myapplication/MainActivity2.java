@@ -59,6 +59,13 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        /*
+        Database db = new Database(this);
+        db.open();
+        db.test();
+        db.close();
+         */
+
         mCalToday = Calendar.getInstance();
         mCal = Calendar.getInstance();
 
